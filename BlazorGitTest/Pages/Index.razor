@@ -1,9 +1,9 @@
 ﻿@page "/"
 
 <h1>Hello All and EveryOne.</h1>
-<p>Hi Iam @name, Today its my first day as blazor.</p>
+<p>Hi Iam <span class="text-success">@name</span> , Today its my first day as blazor.</p>
 <br />
-<button @onclick="SeeName" class="btn btn-primary">See Name</button>
+<button @onclick="SeeName" class="btn btn-danger">See Name</button>
 @code{
   string name = string.Empty;
 
